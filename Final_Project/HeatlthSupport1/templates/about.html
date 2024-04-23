@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        h3 {
+            color: #007bff;
+            text-decoration: underline;
+            margin-top: 0;
+        }
+
+        p {
+            color: #555;
+            margin-top: 10px;
+        }
+
+        .team {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .member {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .member img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 2px solid #007bff;
+            margin-bottom: 10px;
+        }
+
+        .member p {
+            margin: 0;
+        }
+
+        .wrapper {
+            width: 100%;
+            word-wrap: break-word; /* Apply wrapping effect */
+        }
+
+       .logo {
+            width: 50px;
+            height: 50px;
+            margin-top: 0;
+            margin-left: 2px;
+        }
+
+        .myimg {
+            width:50px;
+            height: 50px;
+            border-radius: 25px;
+        }
+
+        /* Navbar styles */
+        .navbar {
+            background-color: #516deb; /* Change background color */
+            color: #ffffff;
+            padding: 10px 0;
+            position: relative;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add shadow */
+        }
+
+        .container-fluid {
+            display: flex;
+            align-items: center;
+            padding-left: 20px; /* Add padding to the left of the logo */
+        }
+
+    .navbar-brand {
+    font-size: 24px;
+    margin: 9px;
+    padding: 0 20px;
+    }
+
+
+        .navbar-toggler {
+            display: none;
+        }
+
+        .navbar-menu {
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar-nav {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .nav-item {
+            margin-right: 20px;
+        }
+
+        .nav-link {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 19px;
+            transition: color 0.3s ease;
+          }
+
+        .nav-link:hover {
+            color: #28a745; /* Change hover color */
+        }
+
+        .navbar-form {
+            display: flex;
+            align-items: center;
+        }
+
+        .form-control {
+            margin-right: 10px;
+            padding: 8px;
+            border-radius: 5px;
+            border: none;
+        }
+
+        .btn-outline-success {
+            background-color: #28a745;
+            color: #ffffff;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease; /* Add transition for smoother color change */
+        }
+
+        .btn-outline-success:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar">
+    <div class="container-fluid">
+        <div class="logo">
+            <img class="myimg" src="{{ url_for('static', filename='img.png') }}" width=50px height=50px alt="">
+        </div>
+        <a class="navbar-brand" href="#">HealthSupport</a>
+        <button class="navbar-toggler" type="button" id="toggleButton" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-menu" id="navbarMenu">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact">Report</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/developer">Developer</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+    <div class="container">
+        <h3>About Us</h3>
+       <div class="wrapper">
+    <p>Welcome to HealthSupport, your reliable information retrieval system designed to provide accurate insights
+        into various diseases and health concerns. In today's fast-paced world, access to dependable medical guidance
+        is paramount for informed decision-making and well-being. Our platform serves a crucial role in empowering
+        individuals with timely and precise information.</p>
+    <p>HealthSupport is currently in the trial phase, demonstrating promising performance thus far. As part of our
+        ongoing efforts, our dedicated team is continuously refining and enhancing the system. Developed initially
+        as a college project, HealthSupport has evolved into a simple yet effective web application.</p>
+    <p>Navigating HealthSupport is straightforward: you input your symptoms, and based on this information,
+        the system generates relevant results. Our goal is to simplify the process of obtaining valuable health
+        insights, ultimately contributing to better health outcomes for users</p>
+    </div>
+
+        <h3>Our Team</h3>
+        <div class="team">
+            <div class="member">
+                <img src="{{ url_for('static', filename='akash.jpg') }}" alt="Akash Kumar">
+                <p>Akash Kumar<br>MT23012<br>akash23012@iiitd.ac.in</p>
+            </div>
+            <div class="member">
+                <img src="{{ url_for('static', filename='prakhar.jpg') }}" alt="Prakhar Sharma">
+                <p>Prakhar Sharma<br>MT23060<br>prakhar23012@iiitd.ac.in</p>
+            </div>
+            <div class="member">
+                <img src="{{ url_for('static', filename='rashid.jpg') }}" alt="Mo Rashid">
+                <p>Mo Rashid<br>MT23047<br>rashid23047@iiitd.ac</p>
+            </div>
+            <div class="member">
+                <img src="{{ url_for('static', filename='jaffrin.jpg') }}" alt="Jafreen Rizvi">
+                <p>Jafreen Rizvi<br>MT23040<br>jafreen230@iiitd.ac.in</p>
+            </div>
+            <div class="member">
+                <img src="{{ url_for('static', filename='akash.jpg') }}" alt="Harsh Choudhary">
+                <p>Harsh Choudhary<br>2020433<br>harsh20433@iiitd.ac.in</p>
+            </div>
+            <div class="member">
+                <img src="{{ url_for('static', filename='sh.jpg') }}" alt="Shazra Irshad">
+                <p>Shazra Irshad<br>MT23089<br>shazra23089@iiitd.ac.in</p>
+            </div>
+        </div>
+
+        <h3>HealthSupport Details</h3>
+        <p>HealthSupport aims to provide a comprehensive and accessible platform for individuals seeking medical information and support. Our scope includes:</p>
+        <ul>
+            <li>Providing a chatbot capable of suggesting potential diseases or conditions based on user-entered symptoms.</li>
+            <li>Suggesting appropriate medicines or treatments upon diagnosis.</li>
+            <li>Offering brief descriptions or overviews of identified diseases or conditions.</li>
+            <li>Engaging in conversational interactions with users to gather symptoms and provide recommendations.</li>
+        </ul>
+        <p>While HealthSupport strives for accuracy, limitations include the complexity of medical conditions and the reliance on comprehensive databases. However, our platform aims to bridge the gap between patients and healthcare professionals by providing instant support and information.</p>
+    </div>
+</body>
+</html>
