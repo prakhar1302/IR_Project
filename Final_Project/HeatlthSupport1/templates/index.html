@@ -1,0 +1,814 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HealthSupport</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  </head>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        .logo1 {
+            width: 50px;
+            height: 50px;
+            margin-top: 0;
+            margin-left: 2px;
+        }
+
+        .myimg1 {
+            width:50px;
+            height: 50px;
+            border-radius: 25px;
+        }
+
+        /* Navbar styles */
+        .navbar1 {
+            background-color: #516deb; /* Change background color */
+            color: #ffffff;
+            padding: 10px 0;
+            position: relative;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add shadow */
+        }
+
+        .container-fluid1 {
+            display: flex;
+            align-items: center;
+            padding-left: 20px; /* Add padding to the left of the logo */
+        }
+
+        .navbar-brand1 {
+            font-size: 24px;
+            margin: 9px;
+            padding: 0 20px;
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        .navbar-toggler1 {
+            display: none;
+        }
+
+        .navbar-menu1 {
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar-nav1 {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .nav-item1 {
+            margin-right: 20px;
+        }
+
+        .nav-link1 {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 19px;
+            transition: color 0.3s ease;
+        }
+
+        .nav-link1:hover {
+            color: #28a745; /* Change hover color */
+        }
+
+        .navbar-form1 {
+            display: flex;
+            align-items: center;
+        }
+
+        .form-control1 {
+            margin-right: 10px;
+            padding: 8px;
+            border-radius: 5px;
+            border: none;
+        }
+
+        .btn-outline-success1 {
+            background-color: #28a745;
+            color: #ffffff;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease; /* Add transition for smoother color change */
+        }
+
+        .btn-outline-success1:hover {
+            background-color: #218838;
+        }
+
+        /* Heading CSS */
+
+ .text-green1 {
+    color: #000106;
+    font-style: italic;
+    font-size: 57px;
+    font-weight: bold;
+}
+
+.text-secondary1 {
+    color: #040790;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 57px;
+}
+
+#health-support1 {
+    text-align: center;
+    margin-top: 5px;
+}
+<!--        div section-->
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container1 {
+    max-width: 1049px;
+    margin: 50px auto;
+    padding: 24px;
+    background-color: #fff;
+    border-radius: 6px;
+    color: black;
+    box-shadow: 0 0 10px rgba(1, 1, 2, 1.1);
+    margin: 0 auto;
+    height: 280px;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-block-end: 12px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 11px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #e5e2f2;
+    color: #110e0f;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.btn {
+    width: 158px;
+    padding: 14px;
+    border: none;
+    border-radius: 64px;
+    background-color: #2b46be;
+    color: #f9f9f9;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-content: center;
+    font-weight: bold;
+    font-size: 19px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 1.3);
+}
+
+.btn:hover {
+    background-color: #040790;
+}
+  #btn1 {
+      display: flex;
+      justify-content: space-evenly;
+      padding-top: 15px;
+    }
+
+.collapsible {
+    background-color: #2b46be;
+    color: white;
+    padding: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 450px;
+    text-align: center;
+    /* padding: 10px; */
+    margin: 5px;
+    border-radius: 7px;
+}
+
+
+<!--new medicine list show css-->
+
+.medications-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.medication-item {
+  display: inline-block; /* Display each medication block inline */
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.collapsiblenew {
+    background-color: #2b46be;
+    color: white;
+    padding: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    width: 179px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: flex-start;
+    border-radius: 12px;
+    margin: 3px;
+}
+
+.collapsiblenew:hover {
+    background-color: #992e2e;
+}
+.medication-details {
+  display: none;
+}
+
+
+.content {
+  display: none;
+  padding: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  max-width: 450px; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the content horizontally */
+}
+
+.active {
+  display: block;
+}
+
+.result_container {
+    max-width: 1049px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 6px;
+    color: black;
+    box-shadow: 0 0 10px rgba(1, 1, 2, 1.1);
+    margin: 0 auto;
+    height: 235px;
+    margin-top: 16px;
+    font-size: 17px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+}
+.result_containerocr {
+    max-width: 1049px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 6px;
+    color: black;
+    box-shadow: 0 0 10px rgba(1, 1, 2, 1.1);
+    margin: 0 auto;
+    height: 135px;
+    margin-top: 16px;
+    font-size: 17px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+}
+
+#medresad {
+    max-width: 1049px;
+    margin: 50px auto;
+    padding: 37px;
+    background-color: #fff;
+    border-radius: 6px;
+    color: black;
+    box-shadow: 0 0 10px rgba(1, 1, 2, 1.1);
+    margin: 0 auto;
+    height: 235px;
+    margin-top: 16px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-block-end: 70px;
+    margin-block-start: 53px;
+}
+.collapsible1 {
+    background-color: #2b46be;
+    color: white;
+    padding: 12px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    /* display: flex; */
+    width: 441px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: flex-start;
+    border-radius: 12px;
+    margin-inline: 23px;
+}
+
+#advantagesDiv {
+    width: 434px;
+    margin-left: 26px;
+    background-color: #fff;
+    border-radius: 6px;
+    color: black;
+    box-shadow: 0 0 10px rgba(1, 1, 2, 1.1);
+}
+
+#disadvantagesDiv {
+    width: 433px;
+    margin-left: 515px;
+    background-color: #fff;
+    border-radius: 6px;
+    color: black;
+    box-shadow: 0 0 10px rgba(1, 1, 2, 1.1);
+}
+
+.thirdclass1 {
+    display: flow-root;
+    width: 480px;
+    height: 183px;
+    padding: 5px;
+}
+  .thirdclass2 {
+    display: flow-root;
+    width: 480px;
+    height: 183px;
+    padding: 5px;
+}
+   .result1 {
+    text-align: center;
+    margin-top: 17px;
+    font-style: initial;
+    font-size: 31px;
+    COLOR: black;
+    shape-rendering: geometricprecision;
+    shape-outside: border-box;
+}
+
+
+#upload1 {
+<!--    width: 1001px;-->
+<!--    background-color: bisque;-->
+<!--    padding-top: 21px;-->
+<!--    box-shadow: 10px;-->
+
+
+    width: 100%;
+    padding: 11px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #e5e2f2;
+    color: #52555c;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+  #loading {
+    width: 5rem;
+    height: 5rem;
+    border: 10px solid #f3f3f3;
+    border-top: 6px solid #2b46be;
+    border-radius: 100%;
+    margin: auto;
+    visibility: hidden;
+    animation: spin 1s infinite linear;
+    padding-top: 10px;
+}
+
+        #loading.display {
+            visibility: visible;
+        }
+
+        @keyframes spin {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+
+        .custom-file-input {
+  color: transparent;
+  cursor: pointer;
+}
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.custom-file-input::before {
+  content: 'Select an Image';
+  display: inline-block;
+  background: #007bff;
+  color: #fff;
+  border: 1px solid #007bff;
+  padding: 8px 12px;
+  border-radius: 5px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+}
+.custom-file-input:hover::before {
+  background: #0056b3;
+}
+.custom-file-input:active::before {
+  background: #004080;
+}
+.custom-file-input:focus::before {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+
+    </style>
+</head>
+<body>
+<nav class="navbar1">
+    <div class="container-fluid1">
+        <div class="logo1">
+            <img class="myimg1" src="{{ url_for('static', filename='img.png') }}" width="50px" height="50px" alt="">
+        </div>
+        <a class="navbar-brand1" href="#">HealthSupport</a>
+        <button class="navbar-toggler1" type="button" id="toggleButton" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon1"></span>
+        </button>
+        <div class="navbar-menu1" id="navbarMenu1">
+            <ul class="navbar-nav1">
+                <li class="nav-item1">
+                    <a class="nav-link1" href="/">Home</a>
+                </li>
+                <li class="nav-item1">
+                    <a class="nav-link1" href="/about">About</a>
+                </li>
+                <li class="nav-item1">
+                    <a class="nav-link1" href="/contact">Report</a>
+                </li>
+                <li class="nav-item1">
+                    <a class="nav-link1" href="/developer">Developer</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- main form of page -->
+<h1 id="health-support1"><span class="text-green1">Health</span><span class="text-secondary1">Support</span></h1>
+
+
+ <div class="container1">
+    <form action="/predict" method="post" enctype="multipart/form-data">
+      <div class="form-group">
+        <label for="symptoms">Enter your Symptoms:</label>
+        <input type="text" class="form-control" id="symptoms" name="symptoms" placeholder="Type symptoms such as itching, sleeping, aching, etc.">
+       </div>
+        <div>
+        <label id = "upload1" for="image">Upload Image of Medicine:</label>
+        <input type="file"  id="image" name="image" style="display:none;" >
+      </div>
+      <div name="mysymptoms" id="transcription"></div>
+      <div id="btn1">
+        <button type="submit" class="btn" id="submitInput">Search</button>
+      </div>
+    </form>
+  </div>
+
+
+<!-- Loading animation -->
+<div id="loading"></div>
+
+
+<!--the reuslt page-->
+
+{% if predicted_disease %}
+
+<h1 class="result1">The Result are given below</h1>
+
+<div class="result_container">
+    <div class="thirdclass1">
+<button class="collapsible">Disease</button>
+<div class="content">
+  <p>{{ predicted_disease }}</p>
+</div>
+<button class="collapsible">Description</button>
+<div class="content">
+  <p>{{ dis_des }}</p>
+</div>
+    <button class="collapsible">Precaution</button>
+  <div class="content">
+    <ul>
+        {% for i in my_precautions %}
+          <li>{{ i }}</li>
+            {% endfor %}
+    </ul>
+  </div>
+    </div>
+    <div class="thirdclass2">
+
+        <button class="collapsible">Medications</button>
+<div class="content">
+   <ul class="medications-list">
+       {% for i in medications %}
+       <li class="medication-item">
+           <button class="collapsiblenew" onclick="getAdvantageResult(this.innerText)">{{ i }}</button>
+           <div class="medication-details content">
+               <p>akash kumar</p>
+           </div>
+       </li>
+       {% endfor %}
+   </ul>
+</div>
+
+
+
+    <button class="collapsible">Workouts</button>
+<div class="content">
+    <ul>
+        {% for i in workout %}
+        <li>{{ i }}</li>
+        {% endfor %}
+    </ul>
+</div>
+
+    <button class="collapsible">Diets</button>
+<div class="content">
+   <ul>
+       {% for i in my_diet %}
+       <li>{{ i }}</li>
+       {% endfor %}
+   </ul>
+</div>
+    </div>
+
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        content.style.display = "block";
+      }
+    });
+  }
+});
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("submitInput").addEventListener("click", function() {
+        document.getElementById("loading").classList.add("display");
+    });
+
+    // Function to hide loading animation and display results
+    function showResults() {
+        document.getElementById("loading").classList.remove("display");
+        // Display results here
+    }
+});
+</script>
+
+
+<script>
+function getAdvantageResult(text) {
+<!--    document.getElementById("loading").classList.add("display");-->
+    // Remove any existing content
+    const existingMedresadDiv = document.getElementById('medresad');
+    if (existingMedresadDiv) {
+        existingMedresadDiv.remove();
+    }
+
+    // Create a new div to hold the data
+    const newMedresadDiv = document.createElement('div');
+    newMedresadDiv.id = 'medresad';
+
+    // Fetch data from the server
+    fetch('/getmedicineAdv', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ buttonText: text }) // Convert text to JSON format
+    })
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+<!--             document.getElementById("loading").classList.remove("display");-->
+        }
+        return response.json(); // Assuming the server responds with JSON data
+    })
+    .then(data => {
+        console.log('Server response:', data);
+        // Handle the response data as needed
+
+        // Create new divs for advantages and disadvantages
+        const advantagesDiv = document.createElement('div');
+        const disadvantagesDiv = document.createElement('div');
+
+        // Add classes or IDs to the new divs if needed
+        advantagesDiv.id = 'advantagesDiv';
+        disadvantagesDiv.id = 'disadvantagesDiv';
+
+        // Create buttons for advantages and disadvantages
+        const advantagesButton = document.createElement('button');
+        const disadvantagesButton = document.createElement('button');
+
+        // Set button text and attributes
+        advantagesButton.textContent = 'Advantages';
+        disadvantagesButton.textContent = 'Disadvantages';
+        advantagesButton.classList.add('collapsible1');
+        disadvantagesButton.classList.add('collapsible1');
+
+        // Initially hide the advantages list
+        advantagesDiv.style.display = 'none';
+
+        // Create lists for advantages and disadvantages
+        const advantagesList = document.createElement('ul');
+        const disadvantagesList = document.createElement('ul');
+
+        // Populate advantages list
+        data.advantages.forEach(advantage => {
+            const listItem = document.createElement('li');
+            listItem.textContent = advantage;
+            advantagesList.appendChild(listItem);
+        });
+
+        // Populate disadvantages list
+        data.disadvantages.forEach(disadvantage => {
+            const listItem = document.createElement('li');
+            listItem.textContent = disadvantage;
+            disadvantagesList.appendChild(listItem);
+        });
+
+        // Append lists to their respective divs
+        advantagesDiv.appendChild(advantagesList);
+        disadvantagesDiv.appendChild(disadvantagesList);
+
+        // Append buttons and divs to the main div
+        newMedresadDiv.appendChild(advantagesButton);
+        newMedresadDiv.appendChild(disadvantagesButton);
+        newMedresadDiv.appendChild(advantagesDiv);
+        newMedresadDiv.appendChild(disadvantagesDiv);
+
+        // Add event listeners to collapsible buttons
+        advantagesButton.addEventListener('click', function() {
+            advantagesDiv.classList.toggle('active');
+            if (advantagesDiv.style.display === 'none') {
+                advantagesDiv.style.display = 'block';
+            } else {
+                advantagesDiv.style.display = 'none';
+            }
+            disadvantagesDiv.style.display = 'none'; // Hide disadvantages if open
+        });
+        disadvantagesButton.addEventListener('click', function() {
+            disadvantagesDiv.classList.toggle('active');
+            if (disadvantagesDiv.style.display === 'none') {
+                disadvantagesDiv.style.display = 'block';
+            } else {
+                disadvantagesDiv.style.display = 'none';
+            }
+            advantagesDiv.style.display = 'none'; // Hide advantages if open
+        });
+
+        // Append the new div to the document body
+
+        document.body.appendChild(newMedresadDiv);
+    })
+    .catch(error => {
+        console.error('Error:', error);
+
+        // Handle errors
+    });
+}
+</script>
+
+
+
+
+
+{% endif %}
+
+
+{% if advres %}
+
+<h1 class="result1">The Result are given below</h1>
+
+<div class="result_containerocr">
+    <div class="thirdclass1">
+<button class="collapsible">Advantage</button>
+<div class="content">
+  <ul>
+       {% for i in advres %}
+       <li>{{ i }}</li>
+       {% endfor %}
+   </ul>
+</div>
+
+
+    </div>
+    <div class="thirdclass2">
+
+    <button class="collapsible">DisAdvantage</button>
+<div class="content">
+   <ul>
+       {% for i in disres %}
+       <li>{{ i }}</li>
+       {% endfor %}
+   </ul>
+</div>
+    </div>
+
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        content.style.display = "block";
+      }
+    });
+  }
+});
+</script>
+{% endif %}
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  var coll = document.getElementsByClassName("collapsible1");
+  var i;
+
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      var content = this.nextElementSibling;
+
+      // Close all collapsible items
+      var allCollapsible = document.getElementsByClassName("collapsible1");
+      for (var j = 0; j < allCollapsible.length; j++) {
+        var otherContent = allCollapsible[j].nextElementSibling;
+        if (otherContent !== content) {
+          otherContent.style.display = "none";
+          allCollapsible[j].classList.remove("active");
+        }
+      }
+
+      // Toggle the display of the clicked collapsible item
+      this.classList.toggle("active");
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        content.style.display = "block";
+      }
+    });
+  }
+});
+</script>
+
+
+
+
+</body>
+</html>
