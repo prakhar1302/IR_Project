@@ -2,7 +2,9 @@
 ## Problem Statement
 Manual research for medical information and treatment options can be time-consuming and complex, particularly for individuals with limited medical knowledge. Accessing relevant medical information efficiently is crucial for making informed decisions about healthcare. An automated solution can streamline this process and provide accessible support.
 Finding medical information and treatment options can be hard, especially if you're not a medical expert. Getting the right info quickly is super important for making good healthcare choices. Using technology to help can make this whole process much easier
- 
+ ## Result 
+ ![WhatsApp Image 2024-04-23 at 17 56 16_adae2129](https://github.com/prakhar1302/IR_Project/assets/142145465/8ff0975f-7fcd-4c1d-a990-0447b1abd49f)
+
 ## Contributors
 1)Akash kumar (MT23012)
 akash23012@iiitd.ac.in
