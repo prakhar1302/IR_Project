@@ -24,8 +24,9 @@ write the above
 1)Akash kumar (MT23012)
 akash23012@iiitd.ac.in
 
-2)Prakhar Sharma (MT23060)
-prakhar23012@iiitd.ac.in
+2)Prakhar Sharma (MT23060) </br>
+prakhar23012@iiitd.ac.in </br>
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-green?style=flat&logo=github)](https://github.com/prakhar1302/IR_Project)
 
 3)Mo Rashid (MT23047)
 rashid23047@iiitd.ac
