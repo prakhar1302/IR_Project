@@ -1,4 +1,4 @@
-# MedicalSupport
+# Health Support System
 ## Problem Statement
 Manual research for medical information and treatment options can be time-consuming and complex, particularly for individuals with limited medical knowledge. Accessing relevant medical information efficiently is crucial for making informed decisions about healthcare. An automated solution can streamline this process and provide accessible support.
 Finding medical information and treatment options can be hard, especially if you're not a medical expert. Getting the right info quickly is super important for making good healthcare choices. Using technology to help can make this whole process much easier
